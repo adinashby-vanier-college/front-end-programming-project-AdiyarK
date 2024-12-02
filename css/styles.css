@@ -1,0 +1,154 @@
+/*global styling*/
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Amatic SC", sans-serif;
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Amatic SC", sans-serif
+}
+/*top nav bar styling*/
+.menu {
+    display: none
+}
+.navbar{
+    background-color:rgb(51, 51, 51) ;
+}
+
+.header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    background-image: url("../images/background.jpg");
+    min-height: 100%;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.top-nav li {
+    float: left;
+    margin-left: 2em;
+}
+
+.top-nav li:hover a{
+    background-color: lightgray;
+    color: black;
+}
+
+.top-nav li a {
+    border: solid white 0.1vh;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2vh 4vh;
+    text-decoration: none;
+}
+
+.top-nav {
+    min-height: 3rem;
+    background-color: rgb(51, 51, 51);
+    padding: 1vh 0 1vh 0;
+}
+
+a:visited {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+/*home section styling*/
+
+#home{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+    color: rgb(0, 0, 0);
+}
+.summary{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+}
+.home-contact{
+    font-size: 2em;
+    color:white;
+}
+.home-contact:hover{
+    color: black;
+}
+
+/*contact form styling */
+.contact{
+    flex-wrap: wrap;
+    background-color: black;
+    width:100%;
+}
+.contact h1, .contact p{
+    color: lightgray;
+    text-align: center;
+}
+.contact-form{
+    background-color: black;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+.contact-form fieldset{
+    border: none;
+    padding: 2rem 0;
+}
+.contact-form:last-of-type{
+    border-bottom: none;
+}
+.contact-form label{
+    display: block;
+    margin:0.5rem auto;
+}
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    min-height: 2em;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: lightgrey;
+}
+.contact label{
+    color: lightgray;
+}
+.contact-form input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border-color: lightgrey;
+    min-width: 300px;
+}
+.inline{
+    display: inline;
+}

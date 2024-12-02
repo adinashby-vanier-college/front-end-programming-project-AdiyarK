@@ -42,7 +42,7 @@ h6 {
 
 .top-nav li {
     float: left;
-    margin-left: 2em;
+    margin:0 0 0.5em 2em;
 }
 
 .top-nav li:hover a{
@@ -95,10 +95,10 @@ a {
 }
 .home-contact{
     font-size: 2em;
-    color:white;
+    color:black;
 }
 .home-contact:hover{
-    color: black;
+    color: white;
 }
 
 /*contact form styling */

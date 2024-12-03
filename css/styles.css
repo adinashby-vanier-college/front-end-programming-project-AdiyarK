@@ -73,14 +73,20 @@ a {
 
 
 .header {
-    background-repeat: no-repeat;
-    background-size: cover;
     opacity: 1;
     width: 100%;
-    background-image: url("../images/background.jpg");
-    min-height: 100%;
+    height: 100%;
     display: flex;
     padding: 0;
+}
+.parallax{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 #home {
@@ -90,13 +96,14 @@ a {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #000;
+    overflow: hidden;
 }
 
 .title {
     font-family: 'Times New Roman', Times, serif;
     font-size: 5em;
     color: rgb(0, 0, 0);
+    text-shadow: 0 0 20px white;
 }
 
 #summary,
@@ -106,6 +113,7 @@ a {
     color: rgb(0, 0, 0);
     padding: 0;
     margin: 0;
+    text-shadow: 0 0 20px white;
 }
 
 #summary {
@@ -135,6 +143,7 @@ a {
         opacity: .0;
     }
 }
+
 
 /*about container styling*/
 .flex-container {
@@ -254,20 +263,22 @@ a {
     border-radius: 30%;
 }
 
-#service{
+#service {
     text-align: center;
     overflow: hidden;
 }
-#service img{
+
+#service img {
     min-height: 10%;
     max-height: 80%;
     width: auto;
 }
 
-#service p{
+#service p {
     width: 100%;
     padding-top: 1em;
     margin: 0;
+    font-size: 1.5em;
 }
 
 

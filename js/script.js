@@ -2,8 +2,7 @@ window.addEventListener('scroll',function() {
     const parallax = document.querySelector('.parallax');
     let scrollPosition = window.scrollY;
 
-    parallax.style.transform = 'transalteY(' + scrollPosition *0.1 + 'px)';
-    console.log(scrollPosition);
+    parallax.style.transform = "translateY(" + scrollPosition *0.5 + "px)";
 });
 const word = "Web Developer";
 let timer;

@@ -107,7 +107,8 @@ a {
     padding: 0;
     margin: 0;
 }
-#summary{
+
+#summary {
     min-width: 20%;
     min-height: 1.2em;
 }
@@ -124,8 +125,9 @@ a {
 .blink {
     animation: blink 0.5s infinite;
 }
-.blink-arrow{
-    animation: blink 1s infinite;   
+
+.blink-arrow {
+    animation: blink 1s infinite;
 }
 
 @keyframes blink {
@@ -212,14 +214,17 @@ a {
     min-width: 30%;
     max-width: 400px;
 }
-#project-img{
+
+#project-img {
     width: 100%;
 }
-#project p{
+
+#project p {
     color: white;
     font-size: 2em;
 }
-#project a{
+
+#project a {
     background-color: white;
     color: black;
     padding: 1em 2em;
@@ -289,15 +294,17 @@ a {
 .inline {
     display: inline;
 }
+
 /*footer styling*/
 footer {
-    background-color: rgb(51,51,51);
+    background-color: rgb(51, 51, 51);
     width: 100%;
     margin: 0;
     padding: 0;
     min-height: 3rem;
 }
-footer ul{
+
+footer ul {
     width: inherit;
     list-style-type: none;
     margin: 0;
@@ -305,17 +312,24 @@ footer ul{
     overflow: hidden;
     text-align: center;
 }
-footer li{
+
+footer li {
     float: left;
     margin: 0 0 0.5em 2em;
     min-height: 10%;
 }
-footer img{
+
+footer a {
+    width: 100%;
+}
+
+footer img {
     min-height: 5vh;
-    max-height: 100px;
+    max-height: 10px;
 
 }
-footer p{
+
+footer p {
     margin: 0;
     text-align: center;
 }

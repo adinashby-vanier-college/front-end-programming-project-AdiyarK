@@ -25,18 +25,51 @@
     <header class="header" id="home">
         <div>
             <span class="title">Adiyar Kaidaruly</span>
-            <p class="summary">
-                Web developer
-            </p>
-            <p><a href="#Contact" class="home-contact">Contact me (arrow animation with js)</a></p>
+            <p id="summary"></p>
+            <p><a href="#Contact" class="home-contact">Contact me <span class="blink-arrow">⟶</span></a></p>
         </div>
     </header>
     <!--about container-->
-    <div class="">
+    <div class="about" id="about">
+        <h1>About</h1>
+        <ul class="flex-container wrap">
+            <li class="flex-item">
+                <h2>Vocational Studies in IT support</h2>
+                <p>Centre de Formation professionnelle Léonard-De-Vinci 2018-2021</p>
+            </li>
+            <li class="flex-item">
+                <h2>Secondary school studies</h2>
+                <p>Secondary school Saint-Laurent 2018-2021</p>
+            </li>
+            <li class="flex-item">
+                <h2>Intercultural committee member</h2>
+                <p>College Rosemont 2023-2024</p>
+            </li>
+            <li class="flex-item">
+                <h2>Continuing education Software Development</h2>
+                <p>Vanier College 2024-Current</p>
+            </li>
+        </ul>
 
     </div>
     <!--portfolio container-->
-    <div>
+    <h2 class="black-bg">Portfolio</h2>
+    <div class="" id="portfolio">
+        <div class="" id="project">
+            <img src="../images/WebExam.png" alt="Exam project" id="project-img">
+            <p>A project I did at college Rosemont for one of my classes</p>
+            <a href="">Source code</a>
+        </div>
+        <div class="" id="project">
+            <img src="../images/assignment.png" alt="Exam project" id="project-img">
+            <p>An assignment for my web development class at college Vanier</p>
+            <a href="https://github.com/adinashby-vanier-college/front-end-prog-assignment-AdiyarK/tree/main"
+                target="_blank">Source code</a>
+        </div>
+
+    </div>
+    <!--services section-->
+    <div id="services">
 
     </div>
     <!--contact form-->
@@ -67,6 +100,19 @@
         <div class="maps"></div>
     </div>
 </body>
+<!--footer-->
+<footer>
+    <div id="footer-links">
+        <ul>
+            <li><a href="https://github.com/AdiyarK" target="_blank"><img src="../images/github-logo.png" alt="github"></a></li>
+            <li><a href="https://www.linkedin.com/in/adiyar-kaidaruly-92145027b/" target="_blank"><img src="../images/linkedin-logo.png" alt=""></a></li>
+        </ul>
+    </div>
+    <div class="copyright">
+        <p>© 2024 Adiyar Kaidaruly. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../js/script.js"></script>
 
 
 </html>
